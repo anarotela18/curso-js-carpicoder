@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Course | Lesson 9 - Events</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <main>
+    <section id="main-content" class="content example">
+
+      <h2 id="main-title">Events</h2>
+
+      <div class="button-group">
+        <button id="btn-alert" class="btn">Alert</button>
+        <button id="btn-console" class="btn">Console</button>
+        <button id="btn-color-mode" class="btn">Toggle Dark Mode</button>
+      </div>
+
+      <div class="form-section">
+
+        <ul class="form-list">
+          <h4>Show in alert</h4>
+          <form id="alert-form" class="form">
+            <input type="text" id="alert-input" class="form-input">
+            <button type="submit" class="form-submit">Show Alert</button>
+          </form>
+        </ul>
+
+        <ul class="form-list list-below">
+          <h4>Show below</h4>
+          <input type="text" id="below-input" class="form-input">
+          <p id="below-output"></p>
+        </ul>
+
+        <ul class="form-list" id="item-list">
+            <h4>Add item to list</h4>
+            <form id="add-item-form" class="form">
+                <input type="text" id="add-item-input" class="form-input">
+                <button type="submit" class="form-submit">Add Item</button>
+            </form>
+        </ul>
+
+      </div>
+    </section>
+  </main>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
